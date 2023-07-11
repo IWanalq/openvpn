@@ -4,7 +4,7 @@ yum install git -y
 1
 （2）将GitHub项目下载到服务器
 
-git clone https://github.com/angristan/openvpn-install
+git clone https://github.com/IWanalq/openvpn-install
 1
 （3）进入openvpn目录
 
