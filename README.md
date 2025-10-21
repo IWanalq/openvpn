@@ -1,8 +1,6 @@
 # openvpn-install
 
-![Test](https://github.com/angristan/openvpn-install/workflows/Test/badge.svg)
-![Lint](https://github.com/angristan/openvpn-install/workflows/Lint/badge.svg)
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/angristan)
+
 
 OpenVPN installer for Debian, Ubuntu, Fedora, CentOS, Arch Linux, Oracle Linux, Rocky Linux and AlmaLinux.
 
@@ -18,16 +16,23 @@ First, get the script and make it executable:
 curl -O https://githubraw.com/IWanalq/openvpn/master/openvpn-install.sh
 chmod +x openvpn-install.sh
 ```
-rawgit托管下面文件
-```bash
-https://github.com/IWanalq/openvpn/blob/master/openvpn-install.sh
-```
 
 Then run it:
 
 ```sh
 ./openvpn-install.sh
 ```
+如果显示:
+./openvpn-install.sh: line 1: Moved: command not found  
+说明文件下载失败使用下面
+
+rawgit托管下面文件
+```bash
+curl -O https://raw.githubusercontent.com/IWanalq/openvpn/master/openvpn-install.sh
+chmod +x openvpn-install.sh
+./openvpn-install.sh
+```
+
 
 You need to run the script as root and have the TUN module enabled.
 
